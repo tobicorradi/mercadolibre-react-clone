@@ -1,12 +1,12 @@
-import React from 'react'
-import Logo from './../Logo/Logo'
+import React from "react";
+import Logo from "./../Logo";
 const Header = () => {
-    return (
-        <header>
-            <Logo/>
-            Soy un header :D
-        </header>
-    )
-}
+  return (
+    <header>
+      <Logo />
+      Soy un header :D
+    </header>
+  );
+};
 
-export default Header
+export default Header;
