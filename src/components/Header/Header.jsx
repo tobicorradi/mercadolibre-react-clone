@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Logo from './../Logo/Logo'
 const Header = () => {
     return (
         <header>
+            <Logo/>
             Soy un header :D
         </header>
     )
