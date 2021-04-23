@@ -5,9 +5,9 @@ const StyledContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 `;
-const Container = (props) => {
+const Container = ({children}) => {
   return (
-    <StyledContainer className="container">{props.children}</StyledContainer>
+    <StyledContainer className="container">{children}</StyledContainer>
   );
 };
 

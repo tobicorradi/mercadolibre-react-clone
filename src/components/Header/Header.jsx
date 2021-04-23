@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./../Logo";
+import Logo from "../Logo";
 import Container from "./../Container";
 import styled from "styled-components";
 import SearchBar from "./../SearchBar";
@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
 `;
 const Header = () => {
   return (
-    <StyledHeader className="header">
+    <StyledHeader>
       <Container>
         <Logo />
         <SearchBar />

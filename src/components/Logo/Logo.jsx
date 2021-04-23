@@ -1,9 +1,9 @@
 import React from "react";
-import logoImg from "./../../assets/img/logo.png";
+import logoDesktop from "./../../assets/img/logoDesktop.png";
 const Logo = () => {
   return (
     <>
-      <img src={logoImg} alt="Logo" />
+      <img src={logoDesktop} alt="Logo" />
     </>
   );
 };
