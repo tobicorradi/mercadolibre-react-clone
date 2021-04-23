@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./../Logo";
 import Container from "./../Container";
+import styled from "styled-components";
 const Header = () => {
   return (
     <header>
