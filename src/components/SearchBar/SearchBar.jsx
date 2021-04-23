@@ -1,35 +1,51 @@
 import React from "react";
-import styled from "styled-components";
-
+import $ from "styled-components";
+import { ReactComponent as SearchIcon } from "./../../assets/img/SearchIcon.svg";
 const SearchBar = () => {
   return (
-    <StyledSearchBar className="searchbar">
-      <StyledFrom action="">
-        <StyledInput
-          type="text"
-          placeholder="Buscar productos, marcas y más..."
-        />
-        <button type="submit">Enviar</button>
-      </StyledFrom>
-    </StyledSearchBar>
+    <$SearchBar className="searchbar">
+      <$Form action="">
+        <$Input type="text" placeholder="Buscar productos, marcas y más..." />
+        <$Button type="submit">
+          <SearchIcon />
+        </$Button>
+      </$Form>
+    </$SearchBar>
   );
 };
-const StyledSearchBar = styled.div`
+const $SearchBar = $.div`
   width: 100%;
   display: flex;
+  max-width: 600px;
 `;
-const StyledFrom = styled.form`
+const $Form = $.form`
   width: 100%;
+  position: relative;
 `;
-const StyledInput = styled.input`
+const $Input = $.input`
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
-  border: 0;
-  padding: 7px 60px 9px 15px;
+  padding: 11px 60px 11px 15px;
   font-size: 16px;
+  border: 0;
   width: 100%;
-  
   ::placeholder {
     color: #d6d6d6;
+  }
+`;
+const $Button = $.button`
+  position: absolute;
+  background: transparent;
+  border: 0;
+  top: 4px;
+  right: 6px;
+  padding: 6px;
+  :before{
+    content: '';
+    width: 1.5px;
+    height: 21px;
+    background: #e2e2e2;
+    position: absolute;
+    left: -6px;
   }
 `;
 export default SearchBar;
