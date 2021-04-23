@@ -1,10 +1,13 @@
 import React from "react";
 import Logo from "./../Logo";
+import Container from "./../Container";
 const Header = () => {
   return (
     <header>
-      <Logo />
-      Soy un header :D
+      <Container>
+        <Logo />
+        Soy un header :D
+      </Container>
     </header>
   );
 };
