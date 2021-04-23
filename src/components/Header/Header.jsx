@@ -3,6 +3,8 @@ import Logo from "../Logo";
 import Container from "./../Container";
 import styled from "styled-components";
 import SearchBar from "./../SearchBar";
+import FlexWrapper from "./../FlexWrapper";
+import CreditImage from "./../../assets/img/credit.jpg";
 const StyledHeader = styled.header`
   background-color: #fff159;
   margin: 0;
@@ -12,8 +14,11 @@ const Header = () => {
   return (
     <StyledHeader>
       <Container>
-        <Logo />
-        <SearchBar />
+        <FlexWrapper>
+          <Logo />
+          <SearchBar />
+          <img src={CreditImage} alt="" />
+        </FlexWrapper>
       </Container>
     </StyledHeader>
   );
