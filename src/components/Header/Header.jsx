@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./../Logo";
 import Container from "./../Container";
 import styled from "styled-components";
+import SearchBar from "./../SearchBar";
 const StyledHeader = styled.header`
   background-color: #fff159;
   margin: 0;
@@ -12,6 +13,7 @@ const Header = () => {
     <StyledHeader className="header">
       <Container>
         <Logo />
+        <SearchBar />
       </Container>
     </StyledHeader>
   );
