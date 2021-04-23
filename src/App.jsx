@@ -6,7 +6,6 @@ const App = () => {
     <>
       <GlobalStyle />
       <Header />
-      Soy una app
     </>
   );
 };

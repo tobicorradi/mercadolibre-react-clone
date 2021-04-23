@@ -11,7 +11,7 @@ const StyledCreditImg = styled.img`
 const StyledHeader = styled.header`
   background-color: #fff159;
   margin: 0;
-  padding: 5px;
+  padding: 7px;
 `;
 const Header = () => {
   return (
