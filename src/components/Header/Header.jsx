@@ -5,6 +5,7 @@ import $ from "styled-components";
 import SearchBar from "./../SearchBar";
 import FlexWrapper from "./../FlexWrapper";
 import CreditImage from "./../../assets/img/credit.jpg";
+import LocationButton from "./../LocationButton";
 const $CreditImg = $.img`
   max-width: 340px;
 `;
@@ -21,6 +22,9 @@ const Header = () => {
           <Logo />
           <SearchBar />
           <$CreditImg src={CreditImage} alt="" />
+        </FlexWrapper>
+        <FlexWrapper>
+          <LocationButton />
         </FlexWrapper>
       </Container>
     </$Header>
