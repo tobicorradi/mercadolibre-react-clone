@@ -41,7 +41,7 @@ const $Button = $.button`
   padding: 6px;
   :before{
     content: '';
-    width: 1.5px;
+    width: 1.2px;
     height: 21px;
     background: #e2e2e2;
     position: absolute;
