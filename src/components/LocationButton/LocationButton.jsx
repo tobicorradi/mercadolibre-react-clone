@@ -23,9 +23,9 @@ const LocationButton = () => {
           <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
         </svg>
         <div>
-          <$ButtonText>Enviar a Tobías</$ButtonText>
+          <$ButtonTextSmaller>Enviar a Tobías</$ButtonTextSmaller>
           <$ButtonText>
-            <strong>Cucha Cucha 1168</strong>
+            Cucha Cucha 1168
           </$ButtonText>
         </div>
       </FlexWrapper>
@@ -36,6 +36,13 @@ const $ButtonText = $.span`
     display: block;
     text-align: left;
     color: #a7a7a7;
+`;
+const $ButtonTextSmaller = $.span`
+    display: block;
+    text-align: left;
+    color: #a7a7a7;
+    font-size: 12px;
+    font-weight: lighter,
 `;
 const $Button = $.button`
     background: transparent;

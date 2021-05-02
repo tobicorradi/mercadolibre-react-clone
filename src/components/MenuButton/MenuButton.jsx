@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "styled-components";
 const $MenuButton = $.li`
-    color: #a7a7a7;
-    font-size: 14px;
+    color: #868686;
+    font-size: 12px;
     cursor: pointer;
     margin-right: 12px;
     letter-spacing: 1px;
