@@ -18,11 +18,16 @@ const $Title = $.h2`
     font-weight: 300;
     display: inline-block;
     margin-bottom: 17px;
+    margin-right: 10px;
+`;
+const $Link = $.a`
+    color: #3483fa;
+    font-size: 14px;
 `;
 const ProductRow = ({ title, products }) => {
   return (
     <$ProductRow>
-      <$Title>{title}</$Title> <a href="">Ver historial</a>
+      <$Title>{title}</$Title> <$Link href="">Ver historial</$Link>
       <Slider {...settings}>
         <ProductCard />
         <ProductCard />
