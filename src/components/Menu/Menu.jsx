@@ -2,7 +2,7 @@ import React from "react";
 import MenuButton from "./../MenuButton";
 import $ from "styled-components";
 const $Menu = $.ul`
-    margin-left: 50px;
+    margin-left: 45px;
 `
 const Items = [
   {
