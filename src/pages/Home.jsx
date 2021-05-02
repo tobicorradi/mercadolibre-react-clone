@@ -12,6 +12,8 @@ const Home = () => {
       <Container>
         <PaymentBlock />
         <ProductRow title={'Basado en tu última visita'}/>
+        <ProductRow title={'Basado en tu última visita'}/>
+        <ProductRow title={'Basado en tu última visita'}/>
       </Container>
     </>
   );

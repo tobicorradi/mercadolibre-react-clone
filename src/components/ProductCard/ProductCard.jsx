@@ -2,7 +2,8 @@ import React from "react";
 import $ from "styled-components";
 const $Product = $.div`
     background-color:white;
-    width: 250px;
+    max-width: 220px;
+    box-shadow: var(--shadow);
 `;
 const $Price = $.span`
     font-size: 22px;
