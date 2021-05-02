@@ -35,13 +35,14 @@ const LocationButton = () => {
 const $ButtonText = $.span`
     display: block;
     text-align: left;
-    color: #a7a7a7;
+    color: #464646;
+    font-weight: 300;
 `;
 const $ButtonTextSmaller = $.span`
     display: block;
     text-align: left;
     color: #a7a7a7;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: lighter,
 `;
 const $Button = $.button`
