@@ -6,6 +6,7 @@ import SearchBar from "./../SearchBar";
 import FlexWrapper from "./../FlexWrapper";
 import CreditImage from "./../../assets/img/credit.jpg";
 import LocationButton from "./../LocationButton";
+import Menu from "./../Menu";
 const $CreditImg = $.img`
   max-width: 340px;
 `;
@@ -13,6 +14,7 @@ const $Header = $.header`
   background-color: #fff159;
   margin: 0;
   padding: 7px;
+  color: #8f8f8f !important;
 `;
 const Header = () => {
   return (
@@ -25,6 +27,7 @@ const Header = () => {
         </FlexWrapper>
         <FlexWrapper>
           <LocationButton />
+          <Menu />
         </FlexWrapper>
       </Container>
     </$Header>
