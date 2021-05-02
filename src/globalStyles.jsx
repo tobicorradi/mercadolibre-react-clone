@@ -9,11 +9,14 @@ const GlobalStyle = createGlobalStyle`
         outline: unset;
         font-family: 'Montserrat', sans-serif;
     }
+    a{
+        text-decoration: none;
+    }
     img{
         max-width: 100%;
     }
     body{
-        background-color: #ededed;
+        background-color: #ebebeb;
     }
     button{
         cursor: pointer;

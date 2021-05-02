@@ -1,28 +1,39 @@
 import React from "react";
 import PaymentItem from "./../PaymentItem";
-import { ReactComponent as IconCredit } from "./../../assets/img/iconCredit.svg";
+import { ReactComponent as IconCredit } from "./../../assets/img/icons/Credit.svg";
+import { ReactComponent as IconDebit } from "./../../assets/img/icons/Debit.svg";
+import { ReactComponent as IconCash } from "./../../assets/img/icons/Cash.svg";
+import { ReactComponent as IconMore } from "./../../assets/img/icons/More.svg";
 import $ from "styled-components";
+import FlexWrapper from "./../FlexWrapper";
 const $PaymentBlock = $.div`
   background-color: white;
   padding: 20px;
+  margin-top: 30px;
 `;
 const PaymentBlock = () => {
   return (
-    <$PaymentBlock className="payment-block">
-      <PaymentItem
-        icon={<IconCredit />}
-        text={"Tarjeta de Crédito"}
-        link={"Ver promociones bancarias"}
-      />
-      <PaymentItem
-        icon={<IconCredit />}
-        text={"Tarjeta de débito"}
-        link={"Ver más"}
-      />
-      <PaymentItem 
-        icon={<IconCredit />} 
-        text={"Efectivo"} 
-        link={"Ver más"} />
+    <$PaymentBlock>
+      <FlexWrapper flex={'1 1 auto'} className="payment-block">
+        <PaymentItem
+          icon={<IconCredit />}
+          text={"Tarjeta de Crédito"}
+          link={"Ver promociones bancarias"}
+        />
+        <PaymentItem
+          icon={<IconDebit />}
+          text={"Tarjeta de débito"}
+          link={"Ver más"}
+        />
+        <PaymentItem 
+          icon={<IconCash />} 
+          text={"Efectivo"} 
+          link={"Ver más"} />
+        <PaymentItem 
+          icon={<IconMore />} 
+          text={"Más medios de pago"} 
+          link={"Ver todos"} />
+      </FlexWrapper>
     </$PaymentBlock>
   );
 };
