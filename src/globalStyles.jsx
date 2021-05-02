@@ -8,6 +8,9 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         outline: unset;
     }
+    img{
+        max-width: 100%;
+    }
     body{
         background-color: #ededed;
     }

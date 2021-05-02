@@ -17,6 +17,7 @@ const $SearchBar = $.div`
   width: 100%;
   display: flex;
   max-width: 600px;
+  margin-left:50px;
 `;
 const $Form = $.form`
   width: 100%;

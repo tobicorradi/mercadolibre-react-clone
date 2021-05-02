@@ -5,6 +5,7 @@ const $MenuButton = $.li`
     font-size: 14px;
     cursor: pointer;
     margin-right: 12px;
+    letter-spacing: 1px;
 `;
 const MenuButton = ({ text, isExpandible }) => {
   return <$MenuButton>{text}</$MenuButton>;

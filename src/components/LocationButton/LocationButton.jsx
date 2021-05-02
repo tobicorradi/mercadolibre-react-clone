@@ -35,6 +35,7 @@ const LocationButton = () => {
 const $ButtonText = $.span`
     display: block;
     text-align: left;
+    color: #a7a7a7;
 `;
 const $Button = $.button`
     background: transparent;

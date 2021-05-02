@@ -1,5 +1,9 @@
 import React from "react";
 import MenuButton from "./../MenuButton";
+import $ from "styled-components";
+const $Menu = $.ul`
+    margin-left: 50px;
+`
 const Items = [
   {
     text: "Categorías",
@@ -32,11 +36,11 @@ const Items = [
 ];
 const Menu = () => {
   return (
-    <ul>
+    <$Menu>
       {Items.map((item) => (
         <MenuButton text={item.text} />
       ))}
-    </ul>
+    </$Menu>
   );
 };
 
