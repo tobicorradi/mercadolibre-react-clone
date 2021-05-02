@@ -20,12 +20,12 @@ const Header = () => {
   return (
     <$Header>
       <Container>
-        <FlexWrapper>
+        <FlexWrapper justify={'space-between'}>
           <Logo />
           <SearchBar />
           <$CreditImg src={CreditImage} alt="" />
         </FlexWrapper>
-        <FlexWrapper>
+        <FlexWrapper justify={'unset'}>
           <LocationButton />
           <Menu />
         </FlexWrapper>

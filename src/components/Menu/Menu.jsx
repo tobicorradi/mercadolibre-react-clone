@@ -32,11 +32,11 @@ const Items = [
 ];
 const Menu = () => {
   return (
-    <>
+    <ul>
       {Items.map((item) => (
         <MenuButton text={item.text} />
       ))}
-    </>
+    </ul>
   );
 };
 
