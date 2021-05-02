@@ -26,7 +26,7 @@ const $Form = $.form`
 const $Input = $.input`
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
   padding: 11px 60px 11px 15px;
-  font-size: 16px;
+  font-size: 15px;
   border: 0;
   width: 100%;
   ::placeholder {
