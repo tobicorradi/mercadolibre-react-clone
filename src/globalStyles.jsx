@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
     :root{
         --shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+        --radius: 4px;
     }
     a{
         text-decoration: none;
