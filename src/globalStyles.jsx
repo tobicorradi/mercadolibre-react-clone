@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
         outline: unset;
         font-family: 'Montserrat', sans-serif;
     }
+    :root{
+        --shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    }
     a{
         text-decoration: none;
     }

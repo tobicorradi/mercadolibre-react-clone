@@ -15,6 +15,7 @@ const $Header = $.header`
   margin: 0;
   padding: 7px;
   color: #8f8f8f !important;
+  box-shadow: var(--shadow);
 `;
 const Header = () => {
   return (

@@ -10,6 +10,7 @@ const $PaymentBlock = $.div`
   background-color: white;
   padding: 20px;
   margin-top: 30px;
+  box-shadow: var(--shadow);
 `;
 const PaymentBlock = () => {
   return (
