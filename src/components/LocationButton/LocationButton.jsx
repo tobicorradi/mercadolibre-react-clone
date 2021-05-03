@@ -37,6 +37,7 @@ const $ButtonText = $.span`
     text-align: left;
     color: #464646;
     font-weight: 300;
+    font-size: 12px;
 `;
 const $ButtonTextSmaller = $.span`
     display: block;
