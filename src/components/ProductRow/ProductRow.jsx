@@ -11,14 +11,15 @@ const settings = {
   slidesToScroll: 1,
 };
 const $ProductRow = $.div`
-   margin-top: 30px;
+    margin-top: 30px;
 `;
 const $Title = $.h2`
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 300;
     display: inline-block;
     margin-bottom: 17px;
     margin-right: 10px;
+    color: #666;
 `;
 const $Link = $.a`
     color: #3483fa;
