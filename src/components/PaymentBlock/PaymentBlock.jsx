@@ -16,7 +16,7 @@ const $PaymentBlock = $.div`
 const PaymentBlock = () => {
   return (
     <$PaymentBlock>
-      <FlexWrapper flex={'1 1 auto'} className="payment-block">
+      <FlexWrapper flex={'1 1 auto'} className="payment-block" flexWrap={'wrap'}>
         <PaymentItem
           icon={<IconCredit />}
           text={"Tarjeta de Crédito"}
