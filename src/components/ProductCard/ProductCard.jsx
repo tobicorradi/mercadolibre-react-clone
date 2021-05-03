@@ -12,6 +12,7 @@ const $Price = $.span`
 const $ProductInfo = $.div`
     padding:  20px;
     border-top: 1px solid rgba(51,51,51,.1);
+    border-radius: 0px 0px var(--radius) var(--radius);
 `;
 const $Cuotas = $.span`
     font-size: 13px;
@@ -27,12 +28,15 @@ const $Shipping = $.span`
 const $Img = $.img`
     width: 100%;
 `;
+const $ImageWrapper = $.div`
+  border-radius: var(--radius) var(--radius)  0px 0px ;
+`
 const ProductCard = () => {
   return (
     <$Product className="product">
-      <div className="product__image">
+      <$ImageWrapper className="product__image">
         <$Img src="https://http2.mlstatic.com/D_Q_NP_834027-MLA45450444551_042021-AB.webp" />
-      </div>
+      </$ImageWrapper>
       <$ProductInfo className="product__info">
         <$Price className="product__price">$160.000</$Price>
         <$Cuotas className="product__cuotas">6x $18.300,33 sin interés</$Cuotas>
