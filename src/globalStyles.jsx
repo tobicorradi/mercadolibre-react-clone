@@ -31,5 +31,17 @@ const GlobalStyle = createGlobalStyle`
     ul li{
         display: inline;
     }
+    .slick-dots{
+        bottom: 20px;
+        li button:before{
+            color: white !important;
+            opacity:.6;
+        }
+        li.slick-active button:before {
+            opacity: 1;
+            color: white;
+            transform: scale(1.5);
+        }
+    }
 `;
 export default GlobalStyle;
