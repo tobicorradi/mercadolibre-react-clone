@@ -15,7 +15,7 @@ const $Item = $.img`
 `;
 const BannerSlider = () => {
   return (
-    <Slider {...settings}>
+    <Slider arrows={false} {...settings}>
       <div>
         <$Item
           src="https://http2.mlstatic.com/D_NQ_797135-MLA45643423773_042021-OO.webp"
