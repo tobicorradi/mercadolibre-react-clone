@@ -12,6 +12,7 @@ const $PaymentBlock = $.div`
   margin-top: 30px;
   box-shadow: var(--shadow);
   border-radius: var(--radius);
+  width: 100%;
 `;
 const PaymentBlock = () => {
   return (
