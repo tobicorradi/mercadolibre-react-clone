@@ -4,6 +4,7 @@ import ProductCard from "./../ProductCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import Title from "./../Title";
 const settings = {
   infinite: true,
   speed: 500,
@@ -13,22 +14,10 @@ const settings = {
 const $ProductRow = $.div`
     margin-top: 30px;
 `;
-const $Title = $.h2`
-    font-size: 23px;
-    font-weight: 300;
-    display: inline-block;
-    margin-bottom: 17px;
-    margin-right: 10px;
-    color: #666;
-`;
-const $Link = $.a`
-    color: #3483fa;
-    font-size: 14px;
-`;
 const ProductRow = ({ title, products }) => {
   return (
     <$ProductRow>
-      <$Title>{title}</$Title> <$Link href="">Ver historial</$Link>
+      <Title text={"Basado en tu última visita"} viewHistory={true}/>
       <Slider {...settings}>
         <ProductCard />
         <ProductCard />
