@@ -43,5 +43,8 @@ const GlobalStyle = createGlobalStyle`
             transform: scale(1.5);
         }
     }
+     .discover__item:first-child{
+         margin-right:15px;
+     }
 `;
 export default GlobalStyle;
