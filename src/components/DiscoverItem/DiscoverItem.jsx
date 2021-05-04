@@ -6,6 +6,7 @@ const $Item = $.div`
     width: 50%;
     padding: 5px 0 5px 30px;
     box-shadow: var(--shadow);
+    border-radius: var(--radius);
     :hover{
         transition: box-shadow .1s ease-out;
         box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
