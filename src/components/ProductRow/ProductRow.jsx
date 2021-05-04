@@ -17,7 +17,7 @@ const $ProductRow = $.div`
 const ProductRow = ({ title, products }) => {
   return (
     <$ProductRow>
-      <Title text={"Basado en tu última visita"} viewHistory={true}/>
+      <Title text={title} viewHistory={true}/>
       <Slider {...settings}>
         <ProductCard />
         <ProductCard />

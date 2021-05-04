@@ -4,6 +4,7 @@ import BannerSlider from "./../components/BannerSlider";
 import PaymentBlock from "./../components/PaymentBlock";
 import Container from "./../components/Container";
 import ProductRow from "./../components/ProductRow";
+import Discover from "./../components/Discover";
 const Home = () => {
   return (
     <>
@@ -11,9 +12,10 @@ const Home = () => {
       <BannerSlider />
       <Container>
         <PaymentBlock />
-        <ProductRow title={'Basado en tu última visita'}/>
-        <ProductRow title={'Ofertas'}/>
-        <ProductRow title={'Inspirado en tus favoritos'}/>
+        <ProductRow title={"Basado en tu última visita"} />
+        <ProductRow title={"Ofertas"} />
+        <ProductRow title={"Inspirado en tus favoritos"} />
+        <Discover />
       </Container>
     </>
   );
