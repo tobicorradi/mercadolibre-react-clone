@@ -12,7 +12,7 @@ const settings = {
   slidesToScroll: 1,
 };
 const $ProductRow = $.div`
-    margin-top: 30px;
+    margin-top: 70px;
 `;
 const ProductRow = ({ title, products }) => {
   return (
