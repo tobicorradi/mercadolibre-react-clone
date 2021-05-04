@@ -10,7 +10,7 @@ const DiscoverItem = ({ title, subtitle, img }) => {
         </h3>
       </div>
       <div>
-        <img src="" alt="" />
+        <img src={img} alt="" />
       </div>
     </div>
   );

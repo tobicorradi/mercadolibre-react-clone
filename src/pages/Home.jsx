@@ -14,8 +14,8 @@ const Home = () => {
         <PaymentBlock />
         <ProductRow title={"Basado en tu última visita"} />
         <ProductRow title={"Ofertas"} />
-        <ProductRow title={"Inspirado en tus favoritos"} />
         <Discover />
+        <ProductRow title={"Inspirado en tus favoritos"} />
       </Container>
     </>
   );
