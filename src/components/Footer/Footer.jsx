@@ -13,7 +13,7 @@ const $Link = $.a`
 const Footer = () => {
     return (
         <$Footer>
-            <p>Sitio web desarrollador por <$Link target="_blank" href="https://www.corraditobias.com.ar/">Tobías Corradi</$Link> con React JS como pieza de portfolio personal, sin fines de lucro.</p>
+            <p>Sitio web desarrollado por <$Link target="_blank" href="https://www.corraditobias.com.ar/">Tobías Corradi</$Link> con React JS como pieza de portfolio personal, sin fines de lucro.</p>
         </$Footer>
     )
 }
