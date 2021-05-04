@@ -5,6 +5,7 @@ import PaymentBlock from "./../components/PaymentBlock";
 import Container from "./../components/Container";
 import ProductRow from "./../components/ProductRow";
 import Discover from "./../components/Discover";
+import Footer from "./../components/Footer";
 const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home = () => {
         <Discover />
         <ProductRow title={"Inspirado en tus favoritos"} />
       </Container>
+      <Footer />
     </>
   );
 };
