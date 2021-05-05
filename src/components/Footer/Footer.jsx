@@ -22,10 +22,10 @@ const Footer = () => {
       <Container>
         <CardDeck />
         <$Text>
-          Sitio web desarrollado por{" "}
+          Sitio web desarrollado por
           <$Link target="_blank" href="https://www.corraditobias.com.ar/">
             Tobías Corradi
-          </$Link>{" "}
+          </$Link>
           con React JS como pieza de portfolio personal, sin fines de lucro.
         </$Text>
       </Container>
