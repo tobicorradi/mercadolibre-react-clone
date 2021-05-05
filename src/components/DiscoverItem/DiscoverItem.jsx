@@ -1,6 +1,7 @@
 import React from "react";
 import $ from "styled-components";
 import FlexWrapper from "./../FlexWrapper";
+import Button from "./../Button";
 const $Item = $.div`
     background-color: white;
     width: 50%;
@@ -36,6 +37,7 @@ const DiscoverItem = ({ title, subtitle, img }) => {
             <$Title>
               Ofertas <br /> del día
             </$Title>
+            <Button text={'Ver más'}/>
           </div>
           <div>
             <$Image src={img} alt="" />
