@@ -5,7 +5,7 @@ import Container from "./../Container";
 
 const $Footer = $.footer`
     background-color: white;
-    padding: 35px;
+    padding: 48px;
     text-align: center;
     margin-top: 50px;
     font-size: 14px;
@@ -13,18 +13,21 @@ const $Footer = $.footer`
 const $Link = $.a`
     color: #3483fa;
 `;
+const $Text = $.p`
+    margin-top:70px;
+`;
 const Footer = () => {
   return (
     <$Footer>
       <Container>
         <CardDeck />
-        <p>
+        <$Text>
           Sitio web desarrollado por{" "}
           <$Link target="_blank" href="https://www.corraditobias.com.ar/">
             Tobías Corradi
           </$Link>{" "}
           con React JS como pieza de portfolio personal, sin fines de lucro.
-        </p>
+        </$Text>
       </Container>
     </$Footer>
   );
