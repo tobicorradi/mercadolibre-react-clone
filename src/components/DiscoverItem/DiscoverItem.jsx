@@ -37,7 +37,7 @@ const DiscoverItem = ({ title, subtitle, img }) => {
             <$Title>
               Ofertas <br /> del día
             </$Title>
-            <Button text={'Ver más'}/>
+            <Button text={"Ver más"} margin={"10px 0 0 0"} />
           </div>
           <div>
             <$Image src={img} alt="" />
