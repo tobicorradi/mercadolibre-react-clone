@@ -5,7 +5,7 @@ import MediaQuery from "react-responsive";
 const Logo = () => {
   return (
     <>
-      <MediaQuery maxWidth={992}>
+      <MediaQuery maxWidth={991}>
         <img src={logoMobile} alt="Logo" />
       </MediaQuery>
       <MediaQuery minWidth={992}>
