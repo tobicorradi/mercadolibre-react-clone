@@ -1,7 +1,7 @@
 import React from "react";
-import MenuButton from "./../MenuButton";
+import MenuButton from "../MenuButton";
 import $ from "styled-components";
-const $Menu = $.ul`
+const $Nav = $.ul`
     margin-left: 45px;
 `
 const Items = [
@@ -34,14 +34,14 @@ const Items = [
     isExpandible: false,
   },
 ];
-const Menu = () => {
+const Nav = () => {
   return (
-    <$Menu>
+    <$Nav>
       {Items.map((item) => (
         <MenuButton text={item.text} />
       ))}
-    </$Menu>
+    </$Nav>
   );
 };
 
-export default Menu;
+export default Nav;

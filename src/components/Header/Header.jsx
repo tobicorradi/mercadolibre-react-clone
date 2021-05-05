@@ -6,7 +6,7 @@ import SearchBar from "./../SearchBar";
 import FlexWrapper from "./../FlexWrapper";
 import CreditImage from "./../../assets/img/credit.jpg";
 import LocationButton from "./../LocationButton";
-import Menu from "./../Menu";
+import Nav from "../Nav";
 import MediaQuery from "react-responsive";
 const $CreditImg = $.img`
   max-width: 340px;
@@ -32,7 +32,7 @@ const Header = () => {
         <FlexWrapper justify={"unset"} margin={"10px 0 0 0"}>
           <LocationButton />
           <MediaQuery minWidth={992}>
-            <Menu />
+            <Nav />
           </MediaQuery>
         </FlexWrapper>
       </Container>
