@@ -6,6 +6,7 @@ import Container from "./../components/Container";
 import ProductRow from "./../components/ProductRow";
 import Discover from "./../components/Discover";
 import Footer from "./../components/Footer";
+import CardDeck from "./../components/CardDeck";
 const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home = () => {
         <ProductRow title={"Ofertas"} />
         <Discover />
         <ProductRow title={"Inspirado en tus favoritos"} />
+        <CardDeck />
       </Container>
       <Footer />
     </>
