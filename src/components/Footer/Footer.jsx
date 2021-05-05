@@ -12,19 +12,20 @@ const $Footer = $.footer`
 `;
 const $Link = $.a`
     color: #3483fa;
+    margin: 0px 5px;
 `;
 const $Text = $.p`
     margin-top:70px;
 `;
 const Footer = () => {
-  return (
+  return ( 
     <$Footer>
       <Container>
         <CardDeck />
         <$Text>
           Sitio web desarrollado por
           <$Link target="_blank" href="https://www.corraditobias.com.ar/">
-            Tobías Corradi
+             Tobías Corradi 
           </$Link>
           con React JS como pieza de portfolio personal, sin fines de lucro.
         </$Text>
